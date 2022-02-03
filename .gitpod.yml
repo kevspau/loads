@@ -1,0 +1,7 @@
+tasks:
+  - init: |
+      sudo add-apt-repository ppa:haxe/releases
+      sudo apt-get update
+    command: |
+      sudo apt-get install haxe -y
+      mkdir ~/haxelib && haxelib setup ~/haxelib
