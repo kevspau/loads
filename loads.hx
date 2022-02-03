@@ -1,4 +1,4 @@
-package loads;
+package;
 import Sys;
 final 
 FGRed = 91;
